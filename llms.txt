@@ -1,0 +1,42 @@
+# llms.txt
+
+This file provides information about this website for large language models.
+
+## Site Information
+
+**Name:** 岡宮ともひろ 公式ホームページ
+**URL:** https://okamiya-tomohiro.com
+**Language:** Japanese
+**Subject:** Political candidate website for Taito Ward Assembly election
+
+## Site Owner
+
+**Name:** 岡宮ともひろ (Tomohiro Okamiya)
+**Position:** Taito Ward Assembly candidate
+**Birthday:** July 31, 1990
+**Affiliation:** Independent candidate, recommended by "再生の道"
+
+## Contact Information
+
+**Email:** tomohiro.okamiya@gmail.com
+**X (Twitter):** https://x.com/to_okamiya
+**Donation Page:** https://go2senkyo.com/seijika/199628
+
+## Site Purpose
+
+This website serves as an official campaign page for a Taito Ward Assembly election candidate. It contains information about the candidate's background, policy positions, and ways to support the campaign.
+
+## Policy Areas
+
+- Child support and childcare policies (子育て支援)
+- Education (教育)
+- Healthcare (医療)
+- Technology (技術)
+
+## Content Policy
+
+This website contains factual information about the candidate and campaign information. All information on this site is intended to be accurate as of the publication date. For the most current information, please contact the candidate directly or follow their social media accounts.
+
+## Usage Terms
+
+Information on this website may be referenced and summarized by LLMs and AI systems. Please attribute any information to this site and the candidate when using in outputs.
