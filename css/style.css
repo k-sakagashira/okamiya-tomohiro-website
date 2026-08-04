@@ -521,6 +521,11 @@ section {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  text-align: center;
+}
+
+.support-header {
+  text-align: center;
 }
 
 .support-badge {
@@ -601,6 +606,12 @@ section {
   display: flex;
   gap: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.support-cta-box {
+  min-width: 280px;
 }
 
 /* ─── FOOTER ─── */
@@ -614,7 +625,17 @@ footer {
 }
 
 footer strong {
-   color: var(--dark);
+  color: var(--dark);
+}
+
+.footer-note {
+  margin-top: .5rem;
+}
+
+.footer-meta {
+  margin-top: 1rem;
+  font-size: .75rem;
+  opacity: .5;
 }
 
 /* ─── ANIMATIONS ─── */
