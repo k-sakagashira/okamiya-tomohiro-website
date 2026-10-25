@@ -7,9 +7,9 @@
   <title>岡宮ともひろ｜公式ホームページ</title>
   <link rel="llms-txt" href="llms.txt">
   <link rel="sitemap" href="sitemap.xml" type="application/xml">
-  <link rel="icon" href="assets/logo.png">
+  <link rel="icon" type="image/png" href="assets/logo-192.png">
   <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Noto+Serif+JP:wght@400;700&family=DM+Sans:ital,wght@0,300;0,500;0,700;1,300&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&family=DM+Sans:ital,wght@0,300;0,500;0,700;1,300&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <!-- Google Tag Manager -->
@@ -26,12 +26,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "name": "岡宮ともひろ",
     "alternateName": "おかみや　ともひろ",
     "birthDate": "1990-07-31",
-    "image": "assets/okamiya-tomohiro-photo.png",
-    "url": "https://okamiya-tomohiro.com",
-    "jobTitle": "台東区議会議員候補",
+    "image": "https://tomohiro-okamiya.com/assets/okamiya-tomohiro-photo.webp",
+    "url": "https://tomohiro-okamiya.com",
+    "jobTitle": "区政対策委員",
     "affiliation": {
       "@type": "Organization",
-      "name": "再生の道"
+      "name": "再生の道(推薦予定)"
     },
     "knowsAbout": ["子育て支援", "教育", "医療", "技術"],
     "sameAs": [
@@ -45,12 +45,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "岡宮ともひろ後援会",
-    "url": "https://okamiya-tomohiro.com",
-    "logo": "assets/logo.png",
+    "url": "https://tomohiro-okamiya.com",
+    "logo": "https://tomohiro-okamiya.com/assets/logo-512.png",
     "description": "岡宮ともひろ後援会",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "",
       "contactType": "Customer Service",
       "email": "tomohiro.okamiya@gmail.com"
     },
@@ -67,122 +66,202 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZQLTGP2"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
   <!-- NAV -->
-  <nav>
+  <nav class="site-nav">
     <div class="nav-logo">岡宮ともひろ</div>
-    <div class="nav-links">
-      <a href="mailto:tomohiro.okamiya@gmail.com">後援会・サポーターになる</a>
+    <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="nav-links">
+      <a href="https://x.com/to_okamiya" target="_blank" rel="noopener noreferrer">ボランティアに応募</a>
       <a href="https://go2senkyo.com/seijika/199628" target="_blank">寄付で応援</a>
       <a href="#profile">プロフィール</a>
     </div>
   </nav>
 
+  <main>
   <!-- HERO -->
   <section class="hero" id="top">
     <div class="hero-box">
     <div class="hero-visual">
       <div class="profile-card">
-        <img src="assets/okamiya-tomohiro-photo.png" alt="岡宮ともひろの写真" class="profile-image">
+        <img src="assets/okamiya-tomohiro-photo.webp" alt="岡宮ともひろの写真" class="profile-image">
       </div>
     </div>
     <div class="hero-content">
-      <div class="hero-catch">台東区</div>
-      <div class="hero-name">
+      <div class="hero-catch"><span>台東区で</span><span>ともに子育て</span><span>ひろがる街づくり</span></div>
+      <h1 class="hero-name">
         <span class="hero-name-kana">おかみや</span>
         岡宮ともひろ
-      </div>
+      </h1>
       <a href="#support" class="hero-cta">応援する</a>
     </div>
     </div>
   </section>
+
     <!-- MESSAGE -->
-  <section class="message-section" id="message">
-    <div class="section-label reveal">メッセージ</div>
-    <h2 class="section-title reveal">
-      <span>台東区の子育て世代を、</span><span>もっと強く。</span>
-    </h2>
-    <p class="message-body reveal">
-      政治に無関心だった私が、台東区の未来に本気で向き合うことを決めました。<br>
-      若者や子育て世代の声が届く政治へ。<br>
-      母から受け継いだ「次の世代を想う覚悟」を胸に、現役世代が誇れる台東区を目指します。<br>
-      次の世代へ、バトンをつなぐ。<br>
-    </p>
-  </section>
-  <!-- ABOUT -->
-  <section id="profile" class="about">
-    <div class="about-inner">
-      <div class="about-visual reveal">
-        <img src="assets/okamiya-tomohiro-photo.png" alt="岡宮ともひろの写真" class="profile-image">
+    <section class="message" id="message">
+      <div class="container message-grid">
+        <div class="reveal">
+          <div class="sec-label"><span class="num">01</span>MESSAGE</div>
+          <h2 class="sec-title"><span class="nb">台東区の子育て世代を、</span><span class="nb"><span class="mark">もっと強く。</span></span></h2>
+        </div>
+        <div class="message-body reveal">
+          <p>政治に無関心だった私が、台東区の未来に本気で向き合うことを決めました。</p>
+          <p>若者や子育て世代の声が届く政治へ。</p>
+          <p>母から受け継いだ「次の世代を想う覚悟」を胸に、現役世代が誇れる台東区を目指します。</p>
+          <p class="last">次の世代へ、バトンをつなぐ。</p>
+        </div>
       </div>
-      <div class="reveal">
-        <div class="section-label">プロフィール</div>
-        <h2 class="section-title">岡宮ともひろ</h2>
-        <p class="section-lead">
-          1990年7月31日生まれ。<br>
-          東京都江東区亀戸出身。<br>
-          台東区在住。<br>
-          立教大学 理学部 物理学科卒業。<br>
-          東京工業大学大学院 (現 東京科学大学大学院)<br>
-          理工学研究科 原子核工学専攻修了。<br>
-          新卒から野村総合研究所にて、ITシステムエンジニアとして従事。<br>
-          その後、AIを駆使した競馬予想アプリを友人と開発し起業。<br>
-          現在は、先輩が立ち上げたコンサルティング会社にて大手企業の業務支援・システム導入などの業務に従事。
-        </p>
-        <p class="section-lead">
-        </p>
-        <p class="section-lead">
-        </p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SUPPORT -->
-  <section class="support" id="support">
-    <div class="support-inner">
-      <div class="support-header reveal">
-        <div class="section-label">サポート</div>
-        <h2 class="section-title"><span>子育て世代を</span><span>盛り上げよう</span></h2>
-        <h3>岡宮ともひろを応援する</h3>
-      </div>
-      <div class="support-content">
-        <div class="support-cta-box reveal">
-          <h3>後援会・サポーター（準備中）</h3>
-          <p>政治活動のサポート、証紙貼り、ポスター貼りなどのご協力をお願いしています。</p>
-          <a href="mailto:tomohiro.okamiya@gmail.com" class="btn-primary" target="_blank" rel="noopener noreferrer">後援会・サポーターになる</a>
+    <!-- APPROACH -->
+    <section class="approach" id="approach">
+      <div class="container message-grid">
+        <div class="reveal">
+          <div class="sec-label"><span class="num">02</span>APPROACH</div>
+          <h2 class="sec-title"><span class="nb"><span class="mark">やってみせる</span></span><span class="nb">存在に。</span></h2>
         </div>
-        <div class="support-cta-box reveal">
-          <h3>寄付で応援（準備中）</h3>
-          <p>選挙ドットコムを通じて受け付けています。<br>ご支援いただけると大変励みになります。</p>
-          <a href="https://go2senkyo.com/seijika/199628" class="btn-primary" target="_blank" rel="noopener noreferrer">寄付で応援する</a>
-        </div>
-        <div class="support-cta-box reveal">
-          <h3>Xをフォローして応援</h3>
-          <p>街頭活動・ボランティア・情報拡散など、<br>様々な形で応援いただけます。<br>子育て世代の声を区政に届けましょう。</p>
-          <a href="https://x.com/to_okamiya" class="btn-primary" target="_blank" rel="noopener noreferrer">Xをフォローする</a>
+        <div class="message-body reveal">
+          <p>改善案を言うだけなら、誰にでもできます。</p>
+          <p><span class="nb">だからこそ私は、</span><span class="nb">計画・実行・改善をできる存在でありたい。</span></p>
+          <p><span class="nb">まずは、得意なシステムの面から、</span><span class="nb">自分がやってみせます。</span></p>
+          <p class="last"><span class="nb">区で働き、生活する皆さんとも</span><span class="nb">手を取り合って、</span><br><span class="nb">台東区の子育て世代を</span><span class="nb">盛り上げる街づくりを、</span><br><span class="nb">一緒に進めていきます。</span></p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p><strong>岡宮ともひろ</strong></p>
-    <p>無所属｜推薦：再生の道</p>
-    <p class="footer-note">子育て世代応援</p>
-    <p class="footer-meta">© 2026 岡宮ともひろ後援会</p>
+    <!-- PROFILE -->
+    <section class="profile" id="profile">
+      <div class="container profile-grid">
+        <div class="profile-photo reveal">
+          <img src="assets/okamiya-tomohiro-photo.webp" alt="岡宮ともひろの写真" loading="lazy">
+        </div>
+        <div class="reveal">
+          <div class="sec-label"><span class="num">03</span>PROFILE</div>
+          <h2 class="profile-name">岡宮ともひろ</h2>
+          <p class="profile-kana">おかみや ともひろ</p>
+
+          <dl class="facts">
+            <div class="fact"><dt>BORN</dt><dd>1990年7月31日</dd></div>
+            <div class="fact"><dt>LIVES IN</dt><dd>台東区</dd></div>
+            <div class="fact"><dt>FROM</dt><dd>東京都江東区亀戸</dd></div>
+          </dl>
+
+          <ol class="timeline">
+            <li class="tl-item">
+              <div class="tl-tag">EDUCATION</div>
+              <div class="tl-title">立教大学</div>
+              <div class="tl-desc">理学部 物理学科 卒業</div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-tag">EDUCATION</div>
+              <div class="tl-title">東京工業大学大学院(現 東京科学大学大学院)</div>
+              <div class="tl-desc">理工学研究科 原子核工学専攻 修了</div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-tag">CAREER</div>
+              <div class="tl-title">野村総合研究所</div>
+              <div class="tl-desc">新卒から、ITシステムエンジニアとして従事</div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-tag">CAREER</div>
+              <div class="tl-title">独自サービス開発</div>
+              <div class="tl-desc">AIを駆使した競馬予想アプリを友人と開発</div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-tag">CAREER</div>
+              <div class="tl-title">中小コンサルティング会社・教育系事業会社</div>
+              <div class="tl-desc">「お客様のために」という自身の理念のもと、2社で業務改善やシステム導入、新規事業開発に従事</div>
+            </li>
+            <li class="tl-item">
+              <div class="tl-tag">NOW</div>
+              <div class="tl-title">ベンチャーコンサルティング会社</div>
+              <div class="tl-desc">先輩が立ち上げた会社で、COOとして大手企業の業務支援・システム導入、自社の拡大(採用や新規事業展開)などに従事</div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SUPPORT -->
+    <section class="support" id="support">
+      <div class="container">
+        <div class="support-head reveal">
+          <div class="sec-label"><span class="num">04</span>SUPPORT</div>
+          <h2 class="sec-title"><span class="nb">子育て世代を</span><span class="nb"><span class="mark">盛り上げよう</span></span></h2>
+          <p>岡宮ともひろを応援する</p>
+        </div>
+        <div class="cards">
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+            <h3>ボランティアで応援(準備中)</h3>
+            <p>政治活動のサポートのご協力をお願いする予定です。今しばらくお待ちください。</p>
+            <a href="https://x.com/to_okamiya" class="btn btn-yellow btn-block" target="_blank" rel="noopener noreferrer">ボランティアに応募する</a>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+            <h3>寄付で応援(準備中)</h3>
+            <p>選挙ドットコムや口座振込を通じて受け付ける予定です。今しばらくお待ちください。</p>
+            <a href="https://go2senkyo.com/seijika/199628" class="btn btn-yellow btn-block" target="_blank" rel="noopener noreferrer">寄付で応援する</a>
+          </article>
+          <article class="card reveal">
+            <div class="card-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16"/><path d="M20 4L4 20"/></svg></div>
+            <h3>Xをフォローして応援</h3>
+            <p>街頭活動や台東区の情報など、さまざまな情報を発信しています。子育て世代の声もお待ちしています。</p>
+            <a href="https://x.com/to_okamiya" class="btn btn-yellow btn-block" target="_blank" rel="noopener noreferrer">Xをフォローする</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-name">岡宮ともひろ</p>
+        <p class="footer-meta">子育て世代応援</p>
+      </div>
+      <div class="footer-meta">
+        <p>無所属｜推薦(予定)：再生の道</p>
+      </div>
+      <p class="copy">© 2026 岡宮ともひろ後援会</p>
+    </div>
   </footer>
 
   <script>
+    // スマホ: メニューの開閉
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const setMenu = (open) => {
+      navLinks.classList.toggle('open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.setAttribute('aria-label', open ? 'メニューを閉じる' : 'メニューを開く');
+    };
+    navToggle.addEventListener('click', () => setMenu(!navLinks.classList.contains('open')));
+    navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+
+    // ナビ: スクロールで背景をつける
+    const siteNav = document.querySelector('.site-nav');
+    const onScroll = () => siteNav.classList.toggle('scrolled', window.scrollY > 24);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
     // Scroll reveal
     const reveals = document.querySelectorAll('.reveal');
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry, i) => {
-        if (entry.isIntersecting) {
-          setTimeout(() => entry.target.classList.add('visible'), i * 80);
-        }
-      });
-    }, { threshold: 0.12 });
-    reveals.forEach(el => observer.observe(el));
+    if ('IntersectionObserver' in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.12 });
+      reveals.forEach(el => observer.observe(el));
+    } else {
+      reveals.forEach(el => el.classList.add('visible'));
+    }
+
   </script>
 </body>
 

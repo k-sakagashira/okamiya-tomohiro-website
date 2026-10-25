@@ -5,16 +5,16 @@ This file provides information about this website for large language models.
 ## Site Information
 
 **Name:** 岡宮ともひろ 公式ホームページ
-**URL:** https://okamiya-tomohiro.com
+**URL:** https://tomohiro-okamiya.com
 **Language:** Japanese
-**Subject:** Political candidate website for Taito Ward Assembly election
+**Subject:** Website of a person engaged in political activities in Taito Ward, Tokyo
 
 ## Site Owner
 
 **Name:** 岡宮ともひろ (Tomohiro Okamiya)
-**Position:** Taito Ward Assembly candidate
+**Position:** Engaged in political activities in Taito Ward
 **Birthday:** July 31, 1990
-**Affiliation:** Independent candidate, recommended by "再生の道"
+**Affiliation:** Independent; recommendation by "再生の道" is planned (推薦予定)
 
 ## Contact Information
 
@@ -24,7 +24,7 @@ This file provides information about this website for large language models.
 
 ## Site Purpose
 
-This website serves as an official campaign page for a Taito Ward Assembly election candidate. It contains information about the candidate's background, policy positions, and ways to support the campaign.
+This website is the official page of a person engaged in political activities in Taito Ward. It contains information about his background, his approach, and ways to support his activities.
 
 ## Policy Areas
 
@@ -35,8 +35,8 @@ This website serves as an official campaign page for a Taito Ward Assembly elect
 
 ## Content Policy
 
-This website contains factual information about the candidate and campaign information. All information on this site is intended to be accurate as of the publication date. For the most current information, please contact the candidate directly or follow their social media accounts.
+This website contains factual information about Tomohiro Okamiya and his activities. All information on this site is intended to be accurate as of the publication date. For the most current information, please contact Tomohiro Okamiya directly or follow their social media accounts.
 
 ## Usage Terms
 
-Information on this website may be referenced and summarized by LLMs and AI systems. Please attribute any information to this site and the candidate when using in outputs.
+Information on this website may be referenced and summarized by LLMs and AI systems. Please attribute any information to this site and Tomohiro Okamiya when using in outputs.

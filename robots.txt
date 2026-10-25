@@ -2,12 +2,9 @@
 
 User-agent: *
 Allow: /
-Disallow: /assets/
-Disallow: /*.js
-Disallow: /*.css
 
 # Sitemap
-Sitemap: https://okamiya-tomohiro.com/sitemap.xml
+Sitemap: https://tomohiro-okamiya.com/sitemap.xml
 
 # Specific crawl-delay settings
 Crawl-delay: 1
